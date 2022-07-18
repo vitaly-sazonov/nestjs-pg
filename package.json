@@ -2,7 +2,7 @@
   "name": "nestjs-pg",
   "version": "1.0.0",
   "description": "NestJS module node-postgres",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "git@github.com:vitaly-sazonov/nestjs-pg.git",
   "author": "danila <v.o.sazonov@gmail.com>",
   "license": "MIT",
