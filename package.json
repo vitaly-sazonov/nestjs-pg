@@ -7,17 +7,16 @@
   "author": "danila <v.o.sazonov@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@nestjs/common": "8.3.1",
-    "@nestjs/core": "8.3.1",
+    "@nestjs/common": "^9.0.3",
+    "@nestjs/core": "^9.0.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
     "pg": "8.7.3"
   },
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0",
+    "@nestjs/common": "^9.0.3",
+    "@nestjs/core": "^9.0.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
-    "slonik": ">=1.0.0"
   }
 }
