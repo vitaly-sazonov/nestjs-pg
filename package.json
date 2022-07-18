@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "tsc": "tsc",
-    "build": "tsc -p ./tsconfig.json"
+    "build": "rm -r ./dist && tsc -p ./tsconfig.json"
   },
   "devDependencies": {
     "@nestjs/common": "^9.0.3",
