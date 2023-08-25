@@ -3,7 +3,7 @@ import { ModuleRef } from "@nestjs/core";
 import { Pool } from "pg";
 
 import { PG_MODULE_OPTIONS } from "./pg.constants";
-import { IPgModuleOptions } from "./pg.interfaces";
+import { IPgModuleOptions, IPgOptions } from "./pg.interfaces";
 import { getPoolToken } from "./pg.utils";
 
 @Global()
@@ -32,7 +32,7 @@ export class PgModule {
     };
   }
 
-  private static createPoolFactory(options) {
+  private static createPoolFactory(options: IPgOptions) {
     return new Pool(options);
   }
 }
