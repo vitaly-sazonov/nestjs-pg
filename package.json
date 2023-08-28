@@ -11,17 +11,17 @@
     "build": "rm -r ./dist && tsc -p ./tsconfig.json"
   },
   "devDependencies": {
-    "@nestjs/common": "^9.0.3",
-    "@nestjs/core": "^9.0.3",
-    "pg": "8.7.3",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0",
+    "rxjs": "^7.8.1",
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "@nestjs/common": "^9.0.3",
-    "@nestjs/core": "^9.0.3",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.8.1"
   }
 }
