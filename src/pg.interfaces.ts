@@ -7,9 +7,9 @@ export interface IPgOptions {
   port?: number;
 }
 
-export type IPgPool = {
-  readonly query: (query: string, bindings: any[]) => Promise<{ rows: any[] }>;
-};
+export interface IPgPool {
+  query<T, K>(query: string, bindings: T): Promise<K>;
+}
 
 export interface IPgModuleOptions extends IPgOptions {
   /**
