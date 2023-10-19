@@ -8,7 +8,7 @@ export interface IPgOptions {
 }
 
 export interface IPgPool {
-  query<T, K>(query: string, bindings: T): Promise<K>;
+  query<T, K>(query: string, bindings?: T): Promise<K>;
 }
 
 export interface IPgModuleOptions extends IPgOptions {
